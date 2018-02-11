@@ -8,16 +8,16 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>如何解决 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="我的解决方法是：把_config.yml中的git仓库链接改成了ssh链接，前期是选用https然后又给git账户增加了ssh key才解决了问题 GitHub. ###具体方法如下： @1、Hexo配置要使用自动部署首先要安装hexo-deployer-git工具：1$ npm install hexo-deployer-git --save 更多信息可以参考CSDN: Writing 配置_c">
+  <meta name="description" content="我的解决方法是：把_config.yml中的git仓库链接改成了ssh链接，前期是选用https然后又给git账户增加了ssh key才解决了问题 GitHub. ###具体方法如下： @1、Hexo配置要使用自动部署首先要安装hexo-deployer-git工具：1$ npm install hexo-deployer-git --save 更多信息可以参考CSDN: 我的知网 配置_conf">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何解决">
 <meta property="og:url" content="http://yoursite.com/2018/02/11/atom-first-blog/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="我的解决方法是：把_config.yml中的git仓库链接改成了ssh链接，前期是选用https然后又给git账户增加了ssh key才解决了问题 GitHub. ###具体方法如下： @1、Hexo配置要使用自动部署首先要安装hexo-deployer-git工具：1$ npm install hexo-deployer-git --save 更多信息可以参考CSDN: Writing 配置_c">
-<meta property="og:updated_time" content="2018-02-11T08:07:58.816Z">
+<meta property="og:description" content="我的解决方法是：把_config.yml中的git仓库链接改成了ssh链接，前期是选用https然后又给git账户增加了ssh key才解决了问题 GitHub. ###具体方法如下： @1、Hexo配置要使用自动部署首先要安装hexo-deployer-git工具：1$ npm install hexo-deployer-git --save 更多信息可以参考CSDN: 我的知网 配置_conf">
+<meta property="og:updated_time" content="2018-02-11T08:17:25.997Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何解决">
-<meta name="twitter:description" content="我的解决方法是：把_config.yml中的git仓库链接改成了ssh链接，前期是选用https然后又给git账户增加了ssh key才解决了问题 GitHub. ###具体方法如下： @1、Hexo配置要使用自动部署首先要安装hexo-deployer-git工具：1$ npm install hexo-deployer-git --save 更多信息可以参考CSDN: Writing 配置_c">
+<meta name="twitter:description" content="我的解决方法是：把_config.yml中的git仓库链接改成了ssh链接，前期是选用https然后又给git账户增加了ssh key才解决了问题 GitHub. ###具体方法如下： @1、Hexo配置要使用自动部署首先要安装hexo-deployer-git工具：1$ npm install hexo-deployer-git --save 更多信息可以参考CSDN: 我的知网 配置_conf">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -176,9 +176,9 @@
         <p>我的解决方法是：把_config.yml中的git仓库链接改成了ssh链接，前期是选用https然后又给git账户增加了ssh key才解决了问题 <a href="https://github.com/Lion-Atom/Lion-Atom.github.io" target="_blank" rel="noopener">GitHub</a>.</p>
 <p>###具体方法如下：</p>
 <h2 id="1、Hexo配置"><a href="#1、Hexo配置" class="headerlink" title="@1、Hexo配置"></a>@1、Hexo配置</h2><h3 id="要使用自动部署首先要安装hexo-deployer-git工具："><a href="#要使用自动部署首先要安装hexo-deployer-git工具：" class="headerlink" title="要使用自动部署首先要安装hexo-deployer-git工具："></a>要使用自动部署首先要安装hexo-deployer-git工具：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-<p>更多信息可以参考CSDN: <a href="http://blog.csdn.net/Greenovia/article/details/60576985" target="_blank" rel="noopener">Writing</a></p>
+<p>更多信息可以参考CSDN: <a href="http://blog.csdn.net/Greenovia/article/details/60576985" target="_blank" rel="noopener">我的知网</a></p>
 <h3 id="配置-config-yml中的deploy："><a href="#配置-config-yml中的deploy：" class="headerlink" title="配置_config.yml中的deploy："></a>配置_config.yml中的deploy：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line"> <span class="built_in">type</span>: git</span><br><span class="line"> repo:git@github.com:your_github_user_name/your_github_user_name.github.io.git</span><br><span class="line"> [我自己的github仓库设置]：repo:git@github.com:Lion-Atom/Lion-Atom.github.io.git</span><br><span class="line"> [修改之前，即报错位置]：repo:https://github.com/Lion-Atom/Lion-Atom.github.io.git</span><br><span class="line"> branch: master</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<p>More info: [(<a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">https://hexo.io/docs/server.html</a>)]</p>
 <h3 id="生成SSH-Key"><a href="#生成SSH-Key" class="headerlink" title="生成SSH Key"></a>生成SSH Key</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C 2295238451@qq.com（换成你的邮箱地址）</span><br></pre></td></tr></table></figure>
 <p>接着出现的一些步骤都可以回车跳过，如下</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Generating public/private rsa key pair.</span><br><span class="line">Enter file <span class="keyword">in</span> <span class="built_in">which</span> to save the key(/c/Users/Administrator/.ssh/id_rsa):</span><br><span class="line">/c/Users/Administrator/.ssh/id_rsa already exists.</span><br><span class="line">Overwrite(y/n)?y/nENter passphrase again:</span><br><span class="line">Your idextification has been saved <span class="keyword">in</span> /c/Users/Administrator/.ssh/id_rsa.</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
@@ -186,9 +186,15 @@
 <h3 id="配置github账户的SSH-Key"><a href="#配置github账户的SSH-Key" class="headerlink" title="配置github账户的SSH Key"></a>配置github账户的SSH Key</h3><p>打开id_rsa.pub文件将一整串公钥拷贝下来</p>
 <p>进入你的github账户设置，在ssh and GPG keys中新增一个ssh key，如下<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SSH andGPG keys</span><br></pre></td></tr></table></figure></p>
 <p>把刚刚拷贝出来的公钥粘贴到key中，title放空就好，也可以自定义title</p>
-<p>#验证SSH Key：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure></p>
+<p>验证SSH Key：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure></p>
 <p>出现下面语句说明SSH Key配置成功：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hi wispyoureyes! You<span class="string">'ve successfully authenticated, but GitHub does not provide shell access.</span></span><br></pre></td></tr></table></figure></p>
-<p>###初始化本地git仓库</p>
+<h3 id="初始化本地git仓库"><a href="#初始化本地git仓库" class="headerlink" title="初始化本地git仓库"></a>初始化本地git仓库</h3><p>设置Git的user.name 和user.email：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"wuyanqina"</span></span><br><span class="line">$ git config --global user.email <span class="string">"greenovia@qq.com"</span>（换成你的邮箱地址）</span><br></pre></td></tr></table></figure></p>
+<p>在本地的hexo init生成的文件夹中初始化git仓库：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git init</span><br></pre></td></tr></table></figure></p>
+<p>将本地仓库和远程仓库连接（这一步骤可以不做）：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git remote add origin git@github.com:your_github_user_name/your_github_user_name.github.io.git(远程仓库ssh地址)</span><br><span class="line"><span class="comment">#我的：</span></span><br><span class="line">$ git remote add origingit@github.com:Lion-Atom/Lion-Atom.github.io.git</span><br></pre></td></tr></table></figure></p>
+<p>做完以上这些步骤，说明你的仓库可以使用ssh方式来上传下载代码，而不需要输入用户名和密码了</p>
+<h3 id="网站部署"><a href="#网站部署" class="headerlink" title="网站部署"></a>网站部署</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean  //清除缓存文件db.json和已生成的静态文件public</span><br><span class="line">$ hexo g   //生成网站静态文件到默认设置的public文件夹</span><br><span class="line">$ hexo d   //部署网站到设定的仓库</span><br></pre></td></tr></table></figure>
+<p>部署成功后会提示：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO Deploy <span class="keyword">done</span>:git</span><br></pre></td></tr></table></figure></p>
+<p>如此，你的博客就部署到page上了</p>
 
       
 
